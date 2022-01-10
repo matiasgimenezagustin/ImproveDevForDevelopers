@@ -1,0 +1,223 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  list-style-type: none; }
+
+body {
+  background-color: #b1d0e0; }
+
+.nav {
+  display: flex;
+  margin-bottom: 5%;
+  background-color: #261c2c; }
+  .nav .icono {
+    margin-left: 3%; }
+  .nav .botonContainer {
+    margin-top: 2%;
+    margin-right: 2%;
+    width: 97%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 5%;
+    font-family: "Roboto Condensed", sans-serif; }
+    .nav .botonContainer .linkBotonContact {
+      text-decoration: none;
+      border: solid black 2px;
+      border-radius: 7px;
+      color: black;
+      padding: 3px;
+      background-color: #583d5e; }
+    .nav .botonContainer .linkBotonService {
+      text-decoration: none;
+      border: solid black 2px;
+      border-radius: 7px;
+      color: black;
+      padding: 3px;
+      background-color: #583d5e; }
+
+.titleContainer {
+  font-family: "Spline Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 7px;
+  margin-bottom: 50px;
+  border-bottom: solid 3px black; }
+  .titleContainer .mainTitle {
+    text-align: center; }
+  .titleContainer .esMainTitle {
+    text-align: center; }
+  .titleContainer .subTitle {
+    font-size: 28px;
+    text-align: center; }
+  .titleContainer .esSubTitle {
+    text-align: center;
+    margin-bottom: 100px; }
+
+.mainOfertas {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Condensed", sans-serif;
+  border-bottom: solid 3px black;
+  margin-bottom: 50px; }
+  .mainOfertas .titleOferta {
+    font-family: "Spline Sans", sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: xx-large; }
+  .mainOfertas .divOferta {
+    margin: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: black solid 2px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    background-color: #ececec; }
+    .mainOfertas .divOferta .desingIcon {
+      width: 10%; }
+    .mainOfertas .divOferta .webIcon {
+      width: 10%; }
+    .mainOfertas .divOferta .responsiveIcon {
+      width: 10%; }
+    .mainOfertas .divOferta .seoIcon {
+      width: 10%; }
+    .mainOfertas .divOferta .mantenimientoIcon {
+      width: 10%; }
+    .mainOfertas .divOferta .divSubOferta {
+      width: 85%; }
+      .mainOfertas .divOferta .divSubOferta .textOfertas {
+        margin-left: 5%;
+        font-size: large; }
+      .mainOfertas .divOferta .divSubOferta .ofertaTitles {
+        font-family: "Spline Sans", sans-serif;
+        font-size: larger;
+        margin: 1%; }
+  .mainOfertas .margin {
+    margin-bottom: 50px; }
+
+.herramientasContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 2%;
+  height: 450px; }
+  .herramientasContainer .desingContainer {
+    border: black solid 2px;
+    border-radius: 5px;
+    width: 30%; }
+    .herramientasContainer .desingContainer .subDesingContainer {
+      font-family: "Spline Sans", sans-serif;
+      font-size: larger;
+      text-align: center;
+      margin-top: 8%; }
+    .herramientasContainer .desingContainer .ulContainer {
+      margin: 4%;
+      margin-top: 10%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 40px;
+      font-family: "Roboto Condensed", sans-serif;
+      border: solid 1px black;
+      border-radius: 5px; }
+      .herramientasContainer .desingContainer .ulContainer .item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 4%;
+        align-items: center; }
+        .herramientasContainer .desingContainer .ulContainer .item .figmaIcon {
+          width: 50px; }
+        .herramientasContainer .desingContainer .ulContainer .item .balsamiqIcon {
+          width: 50px; }
+        .herramientasContainer .desingContainer .ulContainer .item .paperIcon {
+          width: 50px; }
+  .herramientasContainer .devContainer {
+    border: black solid 2px;
+    border-radius: 5px;
+    width: 30%; }
+    .herramientasContainer .devContainer .subDevContainer {
+      font-family: "Spline Sans", sans-serif;
+      font-size: larger;
+      text-align: center;
+      margin-top: 7%; }
+
+.workTitleContainer .workTitle {
+  margin-top: 6rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-family: "Spline Sans", sans-serif; }
+
+.workContainer {
+  display: flex;
+  justify-content: space-around; }
+  .workContainer .work1 {
+    border: black solid 1px;
+    border-radius: 5px;
+    height: 10rem;
+    width: 16rem; }
+    .workContainer .work1 h3 {
+      text-align: center;
+      line-height: 3em; }
+    .workContainer .work1 div {
+      height: 60%;
+      text-align: end; }
+      .workContainer .work1 div a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        margin-top: 4rem;
+        margin-right: 1rem; }
+  .workContainer .work2 {
+    border: black solid 1px;
+    border-radius: 5px;
+    height: 10rem;
+    width: 16rem; }
+    .workContainer .work2 h3 {
+      text-align: center;
+      line-height: 3em; }
+    .workContainer .work2 div {
+      height: 60%;
+      text-align: end; }
+      .workContainer .work2 div a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        margin-top: 4rem;
+        margin-right: 1rem; }
+  .workContainer .work3 {
+    border: black solid 1px;
+    border-radius: 5px;
+    height: 10rem;
+    width: 16rem; }
+    .workContainer .work3 h3 {
+      text-align: center;
+      line-height: 3em; }
+    .workContainer .work3 div {
+      height: 60%;
+      text-align: end; }
+      .workContainer .work3 div a {
+        text-decoration: none;
+        color: black;
+        display: inline-block;
+        margin-top: 4rem;
+        margin-right: 1rem; }
+
+.footer {
+  background-color: #babadd;
+  margin-top: 5%; }
+  .footer ul {
+    display: flex;
+    height: 50px;
+    justify-content: space-between; }
+    .footer ul li {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center; }

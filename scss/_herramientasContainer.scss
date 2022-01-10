@@ -1,0 +1,56 @@
+.herramientasContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 2%;
+    height: 450px;
+    .desingContainer{
+        border: black solid 2px;
+        border-radius: 5px;
+        width: 30%;
+        .subDesingContainer{
+            font-family: $titulo;
+            font-size: larger;
+            text-align: center;
+            margin-top: 8%;
+        }
+        .ulContainer{
+            margin: 4%;
+            margin-top: 10%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 40px;
+            font-family: $texto;
+            border: solid 1px black;
+            border-radius: 5px;
+            .item{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin: 4%;
+                align-items: center;
+                .figmaIcon{
+                    width: 50px;
+                }
+                .balsamiqIcon{
+                    width: 50px;
+                }
+                .paperIcon{
+                    width: 50px;
+                }
+            }
+        }
+    }
+    .devContainer{
+        border: black solid 2px;
+        border-radius: 5px;
+        width: 30%;
+        .subDevContainer{
+            font-family: $titulo;
+            font-size: larger;
+            text-align: center;
+            margin-top: 7%;
+        }
+    }
+}

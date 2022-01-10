@@ -1,0 +1,75 @@
+.workTitleContainer{
+    .workTitle{
+        margin-top: 6rem;
+        margin-bottom: 4rem;
+        text-align: center;
+        font-family: $titulo;
+    }
+}
+.workContainer{
+    display: flex;
+    justify-content: space-around;
+    .work1{
+        border: black solid 1px;
+        border-radius: 5px;
+        height: 10rem;
+        width: 16rem;
+        h3{
+            text-align: center;
+            line-height: 3em;
+        }
+        div{
+            height: 60%;
+            text-align: end;
+            a{
+                text-decoration: none;
+                color: black;
+                display: inline-block;
+                margin-top: 4rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+    .work2{
+            border: black solid 1px;
+            border-radius: 5px;
+            height: 10rem;
+            width: 16rem;
+            h3{
+                text-align: center;
+                line-height: 3em;
+            }
+            div{
+                height: 60%;
+                text-align: end;
+                a{
+                    text-decoration: none;
+                    color: black;
+                    display: inline-block;
+                    margin-top: 4rem;
+                    margin-right: 1rem;
+                }
+            }
+        }
+    .work3{
+        border: black solid 1px;
+        border-radius: 5px;
+        height: 10rem;
+        width: 16rem;
+        h3{
+            text-align: center;
+            line-height: 3em;
+        }
+        div{
+            height: 60%;
+            text-align: end;
+            a{
+                text-decoration: none;
+                color: black;
+                display: inline-block;
+                margin-top: 4rem;
+                margin-right: 1rem;
+            }
+        }
+    }
+}

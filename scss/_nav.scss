@@ -1,0 +1,116 @@
+.nav{
+    display: flex;
+    margin-bottom: 5%;
+    background-color: $azul-oscuro;
+    .icono{
+        margin-left: 3%;
+    }
+    .botonContainer{
+        margin-top: 2%;
+        margin-right: 2%;
+        width: 97%;
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap: 5%;
+        font-family: $texto;
+        
+        
+
+        .linkBotonContact{
+            text-decoration: none;
+            border: solid black 2px;
+            border-radius: 7px;
+            color: black;
+            padding: 3px;
+            background-color: $azul-oscuro-claro;
+        }
+        .linkBotonService{
+            text-decoration: none;
+            border: solid black 2px;
+            border-radius: 7px;
+            color: black;
+            padding: 3px;
+            background-color: $azul-oscuro-claro;
+        }
+    }
+}
+.titleContainer{
+    font-family: $titulo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 7px;
+    margin-bottom: 50px;
+    border-bottom: solid 3px black;
+    .mainTitle{
+        text-align: center;
+    }
+    .esMainTitle{
+        text-align: center;
+    }
+    .subTitle{
+        font-size: 28px;
+        text-align: center;
+    }
+    .esSubTitle{
+        text-align: center;
+        margin-bottom: 100px;
+    }
+}
+.mainOfertas{
+    display: flex;
+    flex-direction: column;
+    font-family: $texto;
+    border-bottom: solid 3px black;
+    margin-bottom: 50px;
+    .titleOferta{
+        font-family: $titulo;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: xx-large;
+    }
+    .divOferta{
+        margin: 1%;
+        margin-left: 2%;
+        margin-right: 2%;
+        border: black solid 2px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        background-color: $verdeClaro;
+        .desingIcon{
+            width: $widthIcons;
+        }
+        .webIcon{
+            width: $widthIcons;
+        }
+        .responsiveIcon{
+            width: $widthIcons;
+        }
+        .seoIcon{
+            width: $widthIcons;
+        }
+        .mantenimientoIcon{
+            width: $widthIcons;
+        }
+        .divSubOferta{
+            width: 85%;
+            .textOfertas{
+                margin-left: 5%;
+                font-size: large;
+            }
+            .ofertaTitles{
+                font-family: $titulo;
+                font-size: larger;
+                margin: 1%;
+            }
+        }
+    }
+    .margin{
+        margin-bottom: 50px;
+    }
+}
